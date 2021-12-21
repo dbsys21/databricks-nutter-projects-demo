@@ -25,3 +25,4 @@ def upper_columns(df: DataFrame, cols: list) -> DataFrame:
 
 # just a change of the code to trigger release
 # just a change of the code to trigger release v1
+# just a change of the code to trigger release v2
