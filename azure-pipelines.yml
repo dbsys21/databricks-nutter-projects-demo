@@ -25,7 +25,13 @@ pr:
     exclude:
       - README.md
       - images
-      
+
+# pr:
+#   branches:
+#     include:
+#       - master
+#       - releases
+
 stages:
 - stage: onPush
   condition: |
