@@ -19,13 +19,18 @@ trigger:
 pr:
   branches:
     include:
-      - master
-      - releases
+      - '*'
   paths:
     exclude:
       - README.md
       - images
-      
+
+# pr:
+#   branches:
+#     include:
+#       - master
+#       - releases
+
 stages:
 - stage: onPush
   condition: |
